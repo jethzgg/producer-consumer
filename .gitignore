@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+*.plist
+
+# Project build output
+build/
+producer_consumer
