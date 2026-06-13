@@ -77,6 +77,3 @@ make clean
 simulation. The simulation owns thread creation and cleanup. Workers access
 the bounded buffer and report through independent logger and statistics
 services. Consumers terminate after receiving one sentinel item each.
-
-See [CODEX_GUIDE.md](CODEX_GUIDE.md) for detailed module contracts and
-[docs/diagrams/flow.md](docs/diagrams/flow.md) for the application flow.
